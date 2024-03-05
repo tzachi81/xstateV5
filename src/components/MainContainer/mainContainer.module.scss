@@ -1,0 +1,21 @@
+.mainContainer {
+    margin: 5px 3px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    .tasksFormContainer {
+        border: 1px dashed palevioletred;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons {
+        display: flex;
+    }
+
+    .inspectorFrame {
+        display: flex;
+        border: 1px solid purple;
+    }
+}
